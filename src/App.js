@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./components/Card";
+import Card from "./components/heroCard";
 import Container from "./components/Container";
 import hero from "./heroes.json";
 import Header from "./components/Header";
@@ -45,7 +45,7 @@ class App extends React.Component {
   render() {
     return (
       <Container>
-        <Header score={this.state.score} highscore={this.state.highscore}>GOT Click Game</Header>
+        <Header score={this.state.score} highscore={this.state.highscore}>Marvel Memory Game</Header>
         {this.state.hero.map(hero => (
           <Card
             handleCount = {this.handleCount}

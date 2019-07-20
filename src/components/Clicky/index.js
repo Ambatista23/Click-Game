@@ -75,11 +75,13 @@ class Clicky extends Component {
         <Container>
           {this.state.hero.map(item => (
             <Card
+
               key={item.id}
               id={item.id}
               shake={!this.state.score && this.state.topScore}
               handleClick={this.itemClick}
               image={item.image}
+              
             />
           ))}
         </Container>
