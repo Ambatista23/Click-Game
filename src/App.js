@@ -3,6 +3,7 @@ import Card from "./components/heroCard";
 import Container from "./components/Container";
 import hero from "./heroes.json";
 import Header from "./components/Header";
+import Nav from "./components/Nav"
 
 class App extends React.Component {
   state = {
@@ -44,8 +45,14 @@ class App extends React.Component {
 
   render() {
     return (
+      <div>
+
+        <Nav 
+        score={this.state.score} 
+        highscore={this.state.highscore}
+        />
+        <Header>Marvel Memory Game</Header>
       <Container>
-        <Header score={this.state.score} highscore={this.state.highscore}>Marvel Memory Game</Header>
         {this.state.hero.map(hero => (
           <Card
             handleCount = {this.handleCount}
@@ -53,6 +60,7 @@ class App extends React.Component {
             key={hero.id}
             image={hero.image}/>
         ))}
-      </Container>);}}
+      </Container>
+      </div>);}}
 
 export default App;

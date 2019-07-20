@@ -1,0 +1,11 @@
+.Nav{
+    background-color: red;
+    background-repeat: repeat;
+    color: white;
+    min-height: 100px;
+    width: 100%;
+    /* padding: 180px 20px; 
+    padding-bottom: 140px; */
+    text-align: center;
+    font-size: 40px;
+}
