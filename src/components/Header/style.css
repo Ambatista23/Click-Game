@@ -1,6 +1,6 @@
 .header {
   background-color: red;
-  background-image: url("/assets/images/geometry.svg");
+  /* background-image: url("/assets/images/geometry.svg"); */
   background-repeat: repeat;
   color: white;
   /* min-height: 400px;
