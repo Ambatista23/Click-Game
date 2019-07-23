@@ -37,6 +37,7 @@ class App extends React.Component {
           return true;
         } else {
           this.gameReset();
+          return false;
         }
       }
         }
