@@ -40,7 +40,8 @@ class App extends React.Component {
           return false;
         }
       }
-        }
+      return null;
+     }
           );
         }
 

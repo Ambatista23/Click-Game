@@ -23,10 +23,7 @@
     "react-dom": "^16.8.6",
     "react-scripts": "^3.0.1"
   },
-  "devDependencies": {
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1"
-  },
+  "devDependencies": {},
   "browserslist": {
     "production": [
       ">0.2%",
